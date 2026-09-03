@@ -1,0 +1,21 @@
+program:
+  name: Example authorized program
+  platform: custom
+
+scope:
+  included:
+    - type: domain
+      value: example.com
+      max_requests_per_second: 1
+    - type: cidr
+      value: 192.0.2.0/28
+      max_requests_per_second: 1
+  excluded: []
+
+rules:
+  active_scanning: true
+  automated_scanning: allowed
+  denial_of_service: false
+  social_engineering: false
+  data_exfiltration: false
+  notes: "Example only: replace assets and rules with the exact written authorization."

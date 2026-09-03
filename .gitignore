@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.env
+.hacker-ai/
+dist/
+build/
+*.egg-info/
+training-output/
+*.dedup.sqlite3
